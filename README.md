@@ -67,6 +67,8 @@ This document outlines the architectural decisions and technologies to be used i
 ### 2.1 Main System
 The main system serves as the source of data. It will be responsible for producing data that needs to be sent to the integrated partners.
 
+![Partner API Architecture](./PartnerAPI.png "Partner API Architecture")
+
 ### 2.2 Partner Integration
 Partners can either have APIs or integrate with an API provided by our system. Integration changes for a partner occur at most once a year.
 
